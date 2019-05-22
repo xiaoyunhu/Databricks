@@ -4,8 +4,8 @@
 - __Term:__ 2019 Spring
 
 ## Introduction 
+The main target of this report is to investigate different statistical models and to determine the features, transformers, estimators and hyperparameters to create the best predictive model for an given dataset. The datasets are collected from different commodity index exchanges across the globe as well as incorporated the news from several mining and finance news sources. The techniques we used here are feature engineering, feature selection and machine learning modeling. The goal is to predict the 5 time charter price `(bci_5tc)` based on the time series and text mining features we have created from the datasets.
 
-This report is to understand the basic structure of machine learning models and use these tools and methods to design a predictive model for dry commodities based on the data collected from different commodity index exchanges across the globe as well as incorporate the news and contents from several mining and finance news sources. The data consists of both numerical data as well as text data sets, hence these datas need be cleaned and converted to single format to be fed into the machine learning models.
 
 ## 1. Dataset description
 The dataset used in the project contains indices in terms of dollars or sdrs, indices of market prices for non-fuel commodities such as metals, energy, livestock and meat and agricultural products and average weekly prices for these commodities from 2011 till 2019. It contains data from different exchanges such as **Baltic Exchange Dry Index (BDI), Intercontinental Exchange (ICE), The Rogers International Commodity Index® (“RICI®”)**. 
@@ -25,11 +25,8 @@ The different types of Commodities fall into the following four categories:
   - Livestock and Meat (including lean hogs, pork bellies, live cattle and feeder cattle)
   - Agricultural (including corn, soybeans, wheat, rice, cocoa, coffee, cotton and sugar)
   
-## 2. Objectives
-The objective of this notebook is to investigate different statistical models and to determine the features, transformers, estimateors and hyperparameters to create the best predictive model for an given dataset. 
-Using the commodity prices, tags and contents from different news sources for coal and iron ore, the goal is to predict the 5 time charter price `(bci_5tc)`. 
 
-## 3. Plan
+## 2. Plan
 In order to design the best fit model for predicting the defined target variable the main steps explained in this report are:
 - Data cleaning: All the three datasets will be cleaned and manipulated so that there is no missing values and then these three different datasets will be combined together to get different merged data which can be used to train and test the models individually. The plan is to combine the time series data `5tc_plus_ind_vars.csv` with the mining datasets individually to create two merged datasets.
 - Class: Different wrapper classes are defined to perform individual pre-processing on the datasets before fitting into another 
