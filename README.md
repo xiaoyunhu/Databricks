@@ -45,7 +45,7 @@ The following notebooks illustrate how we built preprocessing pipelines to creat
 - **3. Estimator pipelines**
 - **4. Investigations**
 
-The 
+The code for feature creation and seletion, estimator classes are shown in the below notebooks:
 
 - **0.1 Raw dataset**
 - **0.2 Feature creation**
