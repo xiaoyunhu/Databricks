@@ -35,3 +35,21 @@ In order to select the best model to predict the defined target variable, we fol
 - Model design and hyperparameter tuning: Different regression models are defined and then trained with separate training datasets to get their test scores. These models are then tested with several hyperparameters and the scores compared using GridsearchCV.
 
 Finally the best fit models will be selected with their tuned hyperparameters and then the test dataset is used to get the prediction score and other score metrics for the best model.
+
+## 3. Notebooks
+
+The following notebooks illustrate how we built preprocessing pipelines to create feature and target datasets, and investigated on different models(estimators), used grid search to tune their hyper parameters and then selected the best model to forecast on the `bci` price.
+
+- **1. Class demonstrations**
+- **2. Preprocessing pipelines**
+- **3. Estimator pipelines**
+- **4. Investigations**
+
+The 
+
+- **0.1 Raw dataset**
+- **0.2 Feature creation**
+- **0.3 Feature selection**
+- **0.4 Estimators**
+
+
